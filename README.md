@@ -22,6 +22,8 @@ Note: to allow private repos to install correctly:
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=100000000'
 ```
+then clone one repo to enter your Username & Personal Access Token, then run the rest of the clone commands
+
 
 To do:
 
