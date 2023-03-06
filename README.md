@@ -18,5 +18,5 @@ git clone https://github.com/EtherealEngine/ee-vps-sample
 
 To do:
 
-- [ ] Add a script file that can be fetched and run
-- [ ] Add a manifest.json that is edited automatically when new projects are added
+- [ ] Add a manifest.json that can be fetched and installed,
+- [ ] Keep up to date when new projects are added with Github Actions
