@@ -10,9 +10,8 @@ cd packages/projects/projects
 # Open Source
 git clone https://github.com/EtherealEngine/ee-bot
 git clone https://github.com/EtherealEngine/ee-development-test-suite
-# git clone https://github.com/EtherealEngine/ee-maps
 git clone https://github.com/EtherealEngine/ee-vps-sample
-# git clone 
+# git clone https://github.com/EtherealEngine/ee-maps
 # git clone https://github.com/EtherealEngine/ee-inventory
 # git clone https://github.com/EtherealEngine/ee-i18n
 # git clone https://github.com/EtherealEngine/ee-digital-beings
