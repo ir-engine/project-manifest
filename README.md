@@ -7,7 +7,6 @@ Note: commands starting with a # are not currently up to date with the engine - 
 ```bash
 cd packages/projects/projects
 
-# Open Source
 git clone https://github.com/EtherealEngine/ee-bot
 git clone https://github.com/EtherealEngine/ee-development-test-suite
 git clone https://github.com/EtherealEngine/ee-vps-sample
