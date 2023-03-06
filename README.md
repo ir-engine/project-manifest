@@ -2,8 +2,6 @@
 
 To install all official open source projects for local development, use the following script in the root of your `etherealengine` folder.
 
-Note: commands starting with a # are not currently up to date with the engine - we are working diligently to get these up to date.
-
 ```bash
 cd packages/projects/projects
 
@@ -14,6 +12,14 @@ git clone https://github.com/EtherealEngine/ee-vps-sample
 # git clone https://github.com/EtherealEngine/ee-inventory
 # git clone https://github.com/EtherealEngine/ee-i18n
 # git clone https://github.com/EtherealEngine/ee-digital-beings
+```
+
+Note: commands starting with a # are not currently up to date with the engine - we are working diligently to get these up to date.
+
+Note: to allow private repos to install correctly:
+```bash
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=100000000'
 ```
 
 To do:
