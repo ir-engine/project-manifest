@@ -6,6 +6,8 @@ To install all official open source projects for local development, use the foll
 cd packages/projects/projects
 
 git clone https://github.com/EtherealEngine/ee-bot &
+git clone https://github.com/EtherealEngine/ee-ethereal-village &
+git clone https://github.com/EtherealEngine/ee-productivity &
 git clone https://github.com/EtherealEngine/ee-development-test-suite &
 git clone https://github.com/EtherealEngine/ee-vps-sample &
 # the following projects are currently outdated
