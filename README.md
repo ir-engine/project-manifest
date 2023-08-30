@@ -7,12 +7,14 @@ cd packages/projects/projects
 
 git clone https://github.com/EtherealEngine/ee-bot &
 git clone https://github.com/EtherealEngine/ee-ethereal-village &
-git clone https://github.com/EtherealEngine/ee-productivity &
 git clone https://github.com/EtherealEngine/ee-development-test-suite &
+git clone https://github.com/EtherealEngine/ee-static-build-template &
 git clone https://github.com/EtherealEngine/ee-vps-sample &
 # the following projects are currently outdated
 # git clone https://github.com/EtherealEngine/ee-maps &
+# git clone https://github.com/EtherealEngine/ee-template &
 # git clone https://github.com/EtherealEngine/ee-inventory &
+# git clone https://github.com/EtherealEngine/ee-productivity &
 # git clone https://github.com/EtherealEngine/ee-i18n &
 # git clone https://github.com/EtherealEngine/ee-digital-beings &
 wait
