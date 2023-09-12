@@ -32,5 +32,5 @@ then clone one repo to enter your Username & Personal Access Token, then run the
 
 To do:
 
-- [ ] Add a manifest.json that can be fetched and installed,
+- [ ] Add a manifest.json that can be fetched and installed [See more](https://github.com/EtherealEngine/etherealengine/issues/5648)
 - [ ] Keep up to date when new projects are added with Github Actions
