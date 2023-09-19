@@ -5,6 +5,8 @@ To install all official open source projects for local development, use the foll
 ```bash
 cd packages/projects/projects
 
+git clone https://github.com/EtherealEngine/ee-ar-demos &
+git clone https://github.com/EtherealEngine/ee-assets-basic &
 git clone https://github.com/EtherealEngine/ee-bot &
 git clone https://github.com/EtherealEngine/ee-ethereal-village &
 git clone https://github.com/EtherealEngine/ee-development-test-suite &
