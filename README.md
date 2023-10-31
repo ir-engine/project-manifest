@@ -1,10 +1,8 @@
 # project-manifest
 
-To install all official open source projects for local development, use the following script in the root of your `etherealengine` folder.
+To install all official open source projects for local development, use the following script in `packages/projects/projects` inside your ethereal engine installation.
 
 ```bash
-cd packages/projects/projects
-
 git clone https://github.com/EtherealEngine/ee-ar-demos &
 git clone https://github.com/EtherealEngine/ee-assets-basic &
 git clone https://github.com/EtherealEngine/ee-bot &
