@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "name": "project-manifest",
+  "packages": [
+    "https://github.com/EtherealEngine/ee-ar-demos"
+  ]
+}

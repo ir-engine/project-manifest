@@ -1,9 +1,25 @@
 # project-manifest
 
-To install all official open source projects for local development, use the following script inside your ethereal engine installation.
+To install all official open source projects for local development, use the following scripts inside your ethereal engine installation.
 
+Install the demo scenes
 ```bash
-npm run install-manifest -- --manifestURL="https://raw.githubusercontent.com/EtherealEngine/project-manifest/main/ee.manifest.json" --branch="dev"
+npm run install-manifest -- --manifestURL="https://raw.githubusercontent.com/EtherealEngine/project-manifest/main/ee-scenes.manifest.json" --branch="dev"
+```
+
+Install all the tutorials
+```bash
+npm run install-manifest -- --manifestURL="https://raw.githubusercontent.com/EtherealEngine/project-manifest/main/ee-tutorials.manifest.json" --branch="dev"
+```
+
+Install all plugins
+```bash
+npm run install-manifest -- --manifestURL="https://raw.githubusercontent.com/EtherealEngine/project-manifest/main/ee-plugins.manifest.json" --branch="dev"
+```
+
+Install the core contributor test suite
+```bash
+npm run install-manifest -- --manifestURL="https://raw.githubusercontent.com/EtherealEngine/project-manifest/main/ee-core.manifest.json" --branch="dev"
 ```
 
 Note: to allow private repos to install correctly:

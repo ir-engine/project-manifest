@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "name": "project-manifest",
+  "packages": [
+    "https://github.com/EtherealEngine/ee-bot",
+    "https://github.com/EtherealEngine/ee-development-test-suite",
+    "https://github.com/EtherealEngine/ee-static-build-template",
+    "https://github.com/EtherealEngine/ee-template"
+  ]
+}
