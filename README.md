@@ -34,3 +34,7 @@ To do:
 
 - [ ] Add a manifest.json that can be fetched and installed [See more](https://github.com/EtherealEngine/etherealengine/issues/5648)
 - [ ] Keep up to date when new projects are added with Github Actions
+
+
+
+npm run install-manifest -- --manifestURL="https://raw.githubusercontent.com/EtherealEngine/project-manifest/main/manifest.json" --branch="dev"
