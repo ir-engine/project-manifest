@@ -2,7 +2,9 @@
 
 To install all official open source projects for local development, use the following script inside your ethereal engine installation.
 
+```bash
 npm run install-manifest -- --manifestURL="https://raw.githubusercontent.com/EtherealEngine/project-manifest/main/manifest.json" --branch="dev"
+```
 
 Note: to allow private repos to install correctly:
 ```bash
