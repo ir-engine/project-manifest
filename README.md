@@ -4,22 +4,22 @@ To install all official open source projects for local development, use the foll
 
 Install the demo scenes
 ```bash
-npm run install-manifest -- --manifestURL="https://github.com/EtherealEngine/project-manifest/blob/main/ee-scenes.manifest.json" --branch="main"
+npm run install-manifest -- --manifestURL="https://github.com/EtherealEngine/project-manifest/blob/main/ee-scenes.manifest.json" --branch="dev"
 ```
 
 Install all the tutorials
 ```bash
-npm run install-manifest -- --manifestURL="https://github.com/EtherealEngine/project-manifest/blob/main/ee-tutorials.manifest.json" --branch="main"
+npm run install-manifest -- --manifestURL="https://github.com/EtherealEngine/project-manifest/blob/main/ee-tutorials.manifest.json" --branch="dev"
 ```
 
 Install all plugins
 ```bash
-npm run install-manifest -- --manifestURL="https://github.com/EtherealEngine/project-manifest/blob/main/ee-plugins.manifest.json" --branch="main"
+npm run install-manifest -- --manifestURL="https://github.com/EtherealEngine/project-manifest/blob/main/ee-plugins.manifest.json" --branch="dev"
 ```
 
 Install the core contributor test suite
 ```bash
-npm run install-manifest -- --manifestURL="https://github.com/EtherealEngine/project-manifest/blob/main/ee-core.manifest.json" --branch="main"
+npm run install-manifest -- --manifestURL="https://github.com/EtherealEngine/project-manifest/blob/main/ee-core.manifest.json" --branch="dev"
 ```
 
 Note: to allow private repos to install correctly:
