@@ -45,7 +45,7 @@ All of that should have created your ssh keys, once you have created SSH Keys, c
 4.- Click on Settings
 5.- Click on SSH and GPG Keys
 6.- Click on "New SSH Key"
-7.- Add key title and paste id_rsa.pub contents
+7.- Add key title and paste id_ed25519.pub contents
 ```
 
 To do:
