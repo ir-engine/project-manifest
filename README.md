@@ -34,7 +34,7 @@ Cloning projects now requires github SSH keys to work to be compliant with githu
 ```
 1.- Open a terminal window
 2.- Run the command ssh-keygen -t ed25519 -C "your_email@example.com" and press Enter
-3.- When you're prompted to "Enter a file in which to save the key", you can press Enter to accept the default file location.
+3.- When you're prompted to "Enter a file in which to save the key", you can press Enter to accept the default file location (~/.ssh/id_rsa).
 4.- At the prompt, "type a secure passphrase" press Enter
 
 All of that should have created your ssh keys, once you have created SSH Keys, copy the contents from the id_rsa.pub and configure github with these keys.
