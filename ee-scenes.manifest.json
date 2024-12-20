@@ -1,9 +1,0 @@
-{
-  "version": "1.0.0",
-  "name": "project-manifest",
-  "packages": [
-    "https://github.com/EtherealEngine/ee-ar-demos",
-    "https://github.com/EtherealEngine/ee-basic-materials",
-    "https://github.com/EtherealEngine/ee-fx-basic"
-  ]
-}

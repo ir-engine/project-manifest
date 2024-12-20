@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "project-manifest",
+  "packages": [
+    "https://github.com/ir/ir-ar-demos",
+    "https://github.com/ir/ir-basic-materials",
+    "https://github.com/ir/ir-fx-basic"
+  ]
+}
