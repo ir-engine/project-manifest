@@ -1,25 +1,25 @@
 # project-manifest
 
-To install all official open source projects for local development, use the following scripts inside your ethereal engine installation.
+To install all official open source projects for local development, use the following scripts inside your iR engine installation.
 
 Install the demo scenes
 ```bash
-npm run install-manifest -- --manifestURL="https://github.com/EtherealEngine/project-manifest/blob/main/ee-scenes.manifest.json" --branch="dev"
+npm run install-manifest -- --manifestURL="https://github.com/ir-engine/project-manifest/blob/main/ee-scenes.manifest.json" --branch="dev"
 ```
 
 Install all the tutorials
 ```bash
-npm run install-manifest -- --manifestURL="https://github.com/EtherealEngine/project-manifest/blob/main/ee-tutorials.manifest.json" --branch="dev"
+npm run install-manifest -- --manifestURL="https://github.com/ir-engine/project-manifest/blob/main/ee-tutorials.manifest.json" --branch="dev"
 ```
 
 Install all plugins
 ```bash
-npm run install-manifest -- --manifestURL="https://github.com/EtherealEngine/project-manifest/blob/main/ee-plugins.manifest.json" --branch="dev"
+npm run install-manifest -- --manifestURL="https://github.com/ir-engine/project-manifest/blob/main/ee-plugins.manifest.json" --branch="dev"
 ```
 
 Install the core contributor test suite
 ```bash
-npm run install-manifest -- --manifestURL="https://github.com/EtherealEngine/project-manifest/blob/main/ee-core.manifest.json" --branch="dev"
+npm run install-manifest -- --manifestURL="https://github.com/ir-engine/project-manifest/blob/main/ee-core.manifest.json" --branch="dev"
 ```
 
 Note: to allow private repos to install correctly:
@@ -47,10 +47,4 @@ All of that should have created your ssh keys, once you have created SSH Keys, c
 6.- Click on "New SSH Key"
 7.- Add key title and paste id_ed25519.pub contents
 ```
-
-To do:
-
-- [x] Add a manifest.json that can be fetched and installed [See more](https://github.com/EtherealEngine/etherealengine/issues/5648)
-- [ ] Keep up to date when new projects are added with Github Actions
-
 
