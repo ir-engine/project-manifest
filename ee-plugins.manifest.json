@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "name": "project-manifest",
   "packages": [
-    "https://github.com/EtherealEngine/ee-bot",
-    "https://github.com/EtherealEngine/ee-development-test-suite"
+    "https://github.com/ir/ir-bot",
+    "https://github.com/ir/ir-development-test-suite"
   ]
 }
