@@ -4,7 +4,6 @@
   "packages": [
     "https://github.com/ir-engine/ir-tutorial-hello",
     "https://github.com/ir-engine/ir-tutorial-bubbles",
-    "https://github.com/ir-engine/ir-tutorial-basic",
-    "https://github.com/ir-engine/ir-tutorial-pong"
+    "https://github.com/ir-engine/ir-tutorial-basic"
   ]
 }
