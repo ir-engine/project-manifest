@@ -18,6 +18,8 @@ npm run install-manifest -- --manifestURL="https://github.com/ir-engine/project-
 ```
 
 Install all the tutorials
+
+*ir-tutorial-pong was removed from the tutorial manifest due to import errors, but should be added back when fixed.*
 ```bash
 npm run install-manifest -- --manifestURL="https://github.com/ir-engine/project-manifest/blob/main/ir-tutorials.manifest.json" --branch="dev"
 ```
