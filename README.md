@@ -2,6 +2,16 @@
 
 To install all official open source projects for local development, use the following scripts inside your iR engine installation.
 
+Install the core contributor test suite
+```bash
+npm run install-manifest -- --manifestURL="https://github.com/ir-engine/project-manifest/blob/main/ir-core.manifest.json" --branch="dev"
+```
+
+Install all plugins
+```bash
+npm run install-manifest -- --manifestURL="https://github.com/ir-engine/project-manifest/blob/main/ir-plugins.manifest.json" --branch="dev"
+```
+
 Install the demo scenes
 ```bash
 npm run install-manifest -- --manifestURL="https://github.com/ir-engine/project-manifest/blob/main/ir-scenes.manifest.json" --branch="dev"
@@ -10,16 +20,6 @@ npm run install-manifest -- --manifestURL="https://github.com/ir-engine/project-
 Install all the tutorials
 ```bash
 npm run install-manifest -- --manifestURL="https://github.com/ir-engine/project-manifest/blob/main/ir-tutorials.manifest.json" --branch="dev"
-```
-
-Install all plugins
-```bash
-npm run install-manifest -- --manifestURL="https://github.com/ir-engine/project-manifest/blob/main/ir-plugins.manifest.json" --branch="dev"
-```
-
-Install the core contributor test suite
-```bash
-npm run install-manifest -- --manifestURL="https://github.com/ir-engine/project-manifest/blob/main/ir-core.manifest.json" --branch="dev"
 ```
 
 Note: to allow private repos to install correctly:
