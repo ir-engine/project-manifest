@@ -1,0 +1,6 @@
+{
+    "name": "ir-engine/project-manifest",
+    "version": "0.0.0",
+    "engineVersion": "1.6.0",
+    "description": "A meta-project for installing various project bundles for the iR Engine"
+  }
