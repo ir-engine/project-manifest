@@ -8,7 +8,6 @@
       "name": "theinfinitereality/irpro-multitenancy",
       "branch": "test"
     },
-    "theinfinitereality/irpro-builder-assets",
     {
       "name": "theinfinitereality/irpro-wizard",
       "commit": "ccbfed72e0669d219f9927b62c4c6b51b0d28690"
