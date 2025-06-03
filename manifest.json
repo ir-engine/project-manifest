@@ -1,6 +1,17 @@
 {
-    "name": "ir-engine/project-manifest",
-    "version": "0.0.0",
-    "engineVersion": "1.6.0",
-    "description": "A meta-project for installing various project bundles for the iR Engine"
-  }
+  "version": "1.0.0",
+  "name": "ir-engine/project-manifest",
+  "engineVersion": "1.6.0",
+  "description": "A meta-project for installing various project bundles for the iR Engine",
+  "dependencies": [
+    {
+      "name": "theinfinitereality/irpro-multitenancy",
+      "branch": "test"
+    },
+    "theinfinitereality/irpro-builder-assets",
+    {
+      "name": "theinfinitereality/irpro-wizard",
+      "commit": "ccbfed72e0669d219f9927b62c4c6b51b0d28690"
+    }
+  ]
+}
