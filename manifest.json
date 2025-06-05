@@ -11,6 +11,10 @@
     {
       "name": "theinfinitereality/irpro-wizard",
       "commit": "ccbfed72e0669d219f9927b62c4c6b51b0d28690"
+    },
+    {
+      "name": "theinfinitereality/irpro-stripe",
+      "commit": "588ba83d33ea72c673e39f9bd75fe1f13126109d"
     }
   ]
 }
